@@ -53,10 +53,12 @@ builder.Services.ConfigureApplicationCookie(options =>
 // Register repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserActivityRepository, UserActivityRepository>();
+builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 
 // Register services
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<UserActivityService>();
+builder.Services.AddScoped<MovieService>();
 
 var app = builder.Build();
 

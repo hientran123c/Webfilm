@@ -1,4 +1,5 @@
-﻿using Film_website.Services;
+﻿using Film_website.Models;
+using Film_website.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,11 +11,13 @@ namespace Film_website.Controllers
         private readonly UserService _userService;
         private readonly UserActivityService? _activityService;
         private readonly ILogger<AdminController> _logger;
+        private readonly MovieService _movieService;
 
-        public AdminController(UserService userService, ILogger<AdminController> logger, UserActivityService? activityService = null)
+        public AdminController(UserService userService, ILogger<AdminController> logger, MovieService movieService, UserActivityService? activityService = null)
         {
             _userService = userService;
             _logger = logger;
+            _movieService = movieService; // Initialize _movieService
             _activityService = activityService;
         }
 
@@ -120,6 +123,80 @@ namespace Film_website.Controllers
                 _logger.LogError(ex, $"Error retrieving activities for user {userId}");
                 return StatusCode(500, "Error retrieving user activities");
             }
+        }
+        public async Task<IActionResult> ManageMovies()
+        {
+            var movies = await _movieService.GetAllMoviesAsync();
+            return View(movies);
+        }
+        [HttpGet]
+        public IActionResult AddMovie()
+        {
+            return View(new Movie());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddMovie(Movie movie, IFormFile movieFile, IFormFile thumbnailFile)
+        {
+            if (!ModelState.IsValid)
+            {
+                // Ghi log các lỗi ModelState để debug
+                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
+                TempData["Error"] = "Invalid input: " + string.Join("; ", errors);
+                return View(movie);
+            }
+
+            try
+            {
+                await _movieService.AddMovieAsync(movie, movieFile, thumbnailFile);
+                TempData["Success"] = "Movie added successfully!";
+                return RedirectToAction("ManageMovies");
+            }
+            catch (Exception ex)
+            {
+                TempData["Error"] = $"Error adding movie: {ex.Message}";
+                return View(movie);
+            }
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> EditMovie(int id)
+        {
+            var movie = await _movieService.GetMovieByIdAsync(id);
+            if (movie == null)
+                return NotFound();
+            return View(movie);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditMovie(Movie movie, IFormFile movieFile, IFormFile thumbnailFile)
+        {
+            if (ModelState.IsValid)
+            {
+                await _movieService.UpdateMovieAsync(movie, movieFile, thumbnailFile);
+                TempData["Success"] = "Movie updated successfully!";
+                return RedirectToAction("ManageMovies");
+            }
+            return View(movie);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteMovie(int id)
+        {
+            await _movieService.DeleteMovieAsync(id);
+            TempData["Success"] = "Movie deleted successfully!";
+            return RedirectToAction("ManageMovies");
+        }
+
+        public async Task<IActionResult> ViewMovie(int id)
+        {
+            var movie = await _movieService.GetMovieByIdAsync(id);
+            if (movie == null)
+                return NotFound();
+            return View(movie);
         }
 
         public IActionResult Dashboard()

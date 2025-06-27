@@ -10,7 +10,7 @@ namespace Film_website.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-
+        public DbSet<Movie> Movies { get; set; }
         // Add UserActivity DbSet
         public DbSet<UserActivity> UserActivities { get; set; }
 
