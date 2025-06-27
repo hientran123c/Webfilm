@@ -1,1 +1,1 @@
-# Movie_website_uses_AI_technology_to_translate_movie
+# Movie_website_uses_AI_technology_to_translate_movies
