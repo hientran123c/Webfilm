@@ -100,7 +100,7 @@ public class AccountController : Controller
     public async Task<IActionResult> Logout()
     {
         await _userService.LogoutUserAsync();
-        return RedirectToAction("Index", "Movie");
+        return RedirectToAction("Index", "Home");
     }
 
     [Authorize]

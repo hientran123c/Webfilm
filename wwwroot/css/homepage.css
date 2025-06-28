@@ -1,0 +1,619 @@
+﻿/* ========== HOMEPAGE STYLES ========== */
+/* Specific styles for the homepage (Views/Home/Index.cshtml) */
+
+/* ========== AUTHENTICATED USER CONTENT STYLES ========== */
+
+/* Homepage Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #141414 0%, #000000 100%);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+    .hero-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080"><rect width="1920" height="1080" fill="%23111"/><circle cx="400" cy="300" r="150" fill="%23222" opacity="0.3"/><circle cx="1200" cy="600" r="200" fill="%23333" opacity="0.2"/></svg>') center/cover;
+        opacity: 0.1;
+    }
+
+.hero-content {
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+}
+
+/* Hero Navigation */
+.hero-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+}
+
+.nav-center h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+    color: white;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-icon {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+    .nav-icon:hover {
+        background: rgba(255, 255, 255, 0.1);
+        transform: scale(1.1);
+    }
+
+.score-indicator {
+    background: linear-gradient(45deg, #e50914, #ff6b6b);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Featured Movie Section */
+.featured-movie {
+    position: relative;
+    margin-bottom: 3rem;
+    border-radius: 15px;
+    overflow: hidden;
+    max-height: 300px;
+}
+
+.featured-backdrop {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+    .featured-backdrop img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.featured-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.3));
+}
+
+.featured-content {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    right: 30px;
+    z-index: 3;
+}
+
+.featured-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.featured-description {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.featured-meta {
+    display: flex;
+    gap: 1rem;
+}
+
+.genre-tag,
+.year-tag {
+    background: rgba(255,255,255,0.2);
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    backdrop-filter: blur(10px);
+}
+
+/* Trending Section */
+.trending-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.trending-title {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0;
+    color: white;
+}
+
+.trending-controls {
+    display: flex;
+    gap: 1rem;
+}
+
+.control-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .control-btn:hover {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: white;
+        transform: scale(1.1);
+    }
+
+/* Hero Actions */
+.hero-actions {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.action-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+}
+
+    .action-btn:hover {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: white;
+        transform: translateY(-2px);
+        color: white;
+    }
+
+    .action-btn.play-btn:hover {
+        background: linear-gradient(45deg, #e50914, #ff6b6b);
+        border-color: #e50914;
+    }
+
+/* Movie Sections */
+.movie-section {
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.movie-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+    .movie-card:hover {
+        transform: translateY(-5px);
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+
+.movie-poster {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+    .movie-poster img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+.movie-card:hover .movie-poster img {
+    transform: scale(1.05);
+}
+
+.placeholder-poster {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #333, #555);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+}
+
+.play-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(229, 9, 20, 0.9);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.movie-card:hover .play-overlay {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.movie-info {
+    padding: 1.5rem;
+}
+
+    .movie-info h4 {
+        color: white;
+        margin: 0 0 0.5rem 0;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .movie-info p {
+        color: rgba(255, 255, 255, 0.7);
+        margin: 0;
+        font-size: 0.9rem;
+    }
+
+/* ========== WELCOME SECTION STYLES (Non-Authenticated Users) ========== */
+
+.welcome-section {
+    background: linear-gradient(135deg, #141414 0%, #000000 100%);
+    min-height: calc(100vh - 130px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+    .welcome-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080"><rect width="1920" height="1080" fill="%23111"/><circle cx="400" cy="300" r="150" fill="%23222" opacity="0.3"/><circle cx="1200" cy="600" r="200" fill="%23333" opacity="0.2"/></svg>') center/cover;
+        opacity: 0.1;
+    }
+
+.welcome-container {
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.welcome-hero {
+    text-align: center;
+}
+
+.welcome-icon {
+    font-size: 4rem;
+    color: #e50914;
+    margin-bottom: 1rem;
+    animation: pulse 2s infinite;
+}
+
+.welcome-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    background: linear-gradient(45deg, #ffffff, #e50914);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.welcome-subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: rgba(255,255,255,0.8);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    line-height: 1.4;
+}
+
+.welcome-actions {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.welcome-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+    min-width: 160px;
+    justify-content: center;
+}
+
+    .welcome-btn:hover {
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    }
+
+    .welcome-btn.btn-login:hover {
+        background: linear-gradient(45deg, #007bff, #0056b3);
+        border-color: #007bff;
+    }
+
+    .welcome-btn.btn-register:hover {
+        background: linear-gradient(45deg, #e50914, #ff6b6b);
+        border-color: #e50914;
+    }
+
+.welcome-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    opacity: 0.9;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgba(255,255,255,0.8);
+    font-size: 1rem;
+    justify-content: center;
+}
+
+    .feature-item i {
+        color: #e50914;
+        font-size: 1.2rem;
+        width: 24px;
+        text-align: center;
+    }
+
+/* ========== ANIMATIONS ========== */
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+
+@media (max-width: 768px) {
+    /* Hero section responsive */
+    .hero-navigation {
+        margin-bottom: 1rem;
+    }
+
+    .nav-center h1 {
+        font-size: 1.5rem;
+    }
+
+    .trending-title {
+        font-size: 2rem;
+    }
+
+    .trending-section {
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .action-btn {
+        width: 200px;
+        justify-content: center;
+    }
+
+    .movie-grid {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 1rem;
+    }
+
+    .movie-poster {
+        height: 240px;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .featured-title {
+        font-size: 1.8rem;
+    }
+
+    .featured-content {
+        left: 20px;
+        right: 20px;
+        bottom: 15px;
+    }
+
+    /* Welcome section responsive */
+    .welcome-title {
+        font-size: 2.2rem;
+    }
+
+    .welcome-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .welcome-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome-btn {
+        width: 200px;
+    }
+
+    .welcome-icon {
+        font-size: 3rem;
+    }
+
+    .welcome-features {
+        gap: 0.8rem;
+    }
+
+    .feature-item {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Hero section extra small */
+    .hero-content {
+        padding: 0 1rem;
+    }
+
+    .movie-section {
+        padding: 2rem 1rem;
+    }
+
+    .movie-grid {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+
+    .featured-movie {
+        max-height: 200px;
+    }
+
+    .featured-backdrop {
+        height: 200px;
+    }
+
+    /* Welcome section extra small */
+    .welcome-container {
+        padding: 1rem;
+    }
+
+    .welcome-title {
+        font-size: 1.8rem;
+    }
+
+    .welcome-subtitle {
+        font-size: 1rem;
+    }
+
+    .welcome-icon {
+        font-size: 2.5rem;
+    }
+
+    .welcome-btn {
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+    }
+}
