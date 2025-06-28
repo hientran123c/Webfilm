@@ -49,6 +49,9 @@ namespace Film_website.Migrations
                     b.Property<int>("ReleaseYear")
                         .HasColumnType("int");
 
+                    b.Property<string>("SubtitlePath")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ThumbnailPath")
                         .HasColumnType("nvarchar(max)");
 
