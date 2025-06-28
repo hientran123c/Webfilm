@@ -429,3 +429,56 @@ html {
     .hover-lift:hover {
         transform: translateY(-5px);
     }
+
+<!-- Add this <style > block to the <head > section of your _Layout.cshtml file -->
+<!-- This will override the conflicting CSS rules immediately -->
+<style >
+/* Emergency Footer Fix - Override conflicting rules */
+html, body {
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+}
+
+main {
+    flex: 1 0 auto !important;
+    margin-top: 80px !important;
+    width: 100% !important;
+}
+
+footer,
+.footer,
+footer[b-52pg0oprgb],
+.footer[b-52pg0oprgb] {
+    position: relative !important;
+    bottom: auto !important;
+    margin-top: auto !important;
+    flex-shrink: 0 !important;
+    width: 100% !important;
+    background: linear-gradient(135deg, #0d0d0d, #141414) !important;
+    border-top: 1px solid rgba(255,255,255,0.1) !important;
+    padding: 2rem 0 1rem 0 !important;
+}
+
+/* Ensure main content has minimum height */
+main .container-fluid {
+    min-height: calc(100vh - 200px) !important;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-top: 70px !important;
+    }
+
+        main .container-fluid {
+            min-height: calc(100vh - 180px) !important;
+        }
+}
+
+</style >

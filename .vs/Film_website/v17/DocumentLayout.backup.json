@@ -3,16 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\wwwroot\\css\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:wwwroot\\css\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\models\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:models\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\models\\viewmodels\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:models\\viewmodels\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +82,6 @@
       "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\models\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:models\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\models\\viewmodels\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:models\\viewmodels\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -73,10 +92,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\configuration\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,14 +124,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\wwwroot\\css\\translator-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -222,9 +229,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project1\\Movie_website_uses_AI_technology_to_translate_movies\\Migrations\\20250623163107_webfirmDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|c:\\users\\hienc\\onedrive\\m\u00E1y t\u00EDnh\\test1\\webfilm\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -247,76 +251,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T04:12:20.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ManageMovies.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\ManageMovies.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\ManageMovies.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\ManageMovies.cshtml",
-              "RelativeToolTip": "Views\\Admin\\ManageMovies.cshtml",
-              "ViewState": "AgIAAHgEAAAAAAAAAAAiwJkEAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T14:24:43.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserManagement.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\UserManagement.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\UserManagement.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\UserManagement.cshtml",
-              "RelativeToolTip": "Views\\Admin\\UserManagement.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T04:14:43.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAGcDAAAAAAAAAAAAAGcDAAA7AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAQwBUBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-22T17:50:35.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Movie\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Index.cshtml",
-              "RelativeToolTip": "Views\\Movie\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T18:14:19.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -324,285 +276,76 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-22T17:46:03.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T17:46:03.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAAAIcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:47:33.777Z",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ViewState": "AgIAAF8CAAAAAAAAAAAWwGYCAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-23T15:24:15.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T18:27:00.715Z",
+              "Title": "homepage.css",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\wwwroot\\css\\homepage.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\homepage.css",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\wwwroot\\css\\homepage.css",
+              "RelativeToolTip": "wwwroot\\css\\homepage.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-28T09:11:34.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Translator.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Translator.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Translator.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Translator.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Translator.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T04:13:21.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO0BAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T08:17:16.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddMovie.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\AddMovie.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\AddMovie.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\AddMovie.cshtml",
-              "RelativeToolTip": "Views\\Admin\\AddMovie.cshtml",
-              "ViewState": "AgIAAGoBAAAAAAAAAAAiwIsBAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T14:22:32.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:54:51.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomePageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ViewModels\\HomePageViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\HomePageViewModel.cs",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ViewModels\\HomePageViewModel.cs",
-              "RelativeToolTip": "Models\\ViewModels\\HomePageViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T17:53:18.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SystemSettings.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\SystemSettings.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\SystemSettings.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\SystemSettings.cshtml",
-              "RelativeToolTip": "Views\\Admin\\SystemSettings.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T04:14:44.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ForgotPasswordViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ViewModels\\ForgotPasswordViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\ForgotPasswordViewModel.cs",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ViewModels\\ForgotPasswordViewModel.cs",
-              "RelativeToolTip": "Models\\ViewModels\\ForgotPasswordViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:19:29.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T04:00:53.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "Controllers\\MovieController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwE0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T18:21:43.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowFAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:50:41.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAAANMAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "Controllers\\AccountController.cs*",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAqwGYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T17:43:14.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Configuration\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Configuration\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Configuration\\DependencyInjection.cs",
-              "RelativeToolTip": "Configuration\\DependencyInjection.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T08:14:53.869Z",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAKoBAAAAAAAAAAAAAOIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-22T18:44:39.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Services\\MovieService.cs",
-              "RelativeDocumentMoniker": "Services\\MovieService.cs",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Services\\MovieService.cs",
-              "RelativeToolTip": "Services\\MovieService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T04:14:40.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAUwKYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T04:02:37.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T18:26:23.214Z",
+              "WhenOpened": "2025-06-22T18:27:00.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Movie\\Details.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Details.cshtml",
-              "RelativeToolTip": "Views\\Movie\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T18:26:20.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Player.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Player.cshtml",
-              "RelativeDocumentMoniker": "Views\\Movie\\Player.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Player.cshtml",
-              "RelativeToolTip": "Views\\Movie\\Player.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T18:14:19.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T18:26:08.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T18:26:13.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 5,
               "Title": "Login.css",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\wwwroot\\css\\Login.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Login.css",
@@ -615,20 +358,285 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-22T18:44:39.099Z",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAIcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:47:33.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ForgotPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ViewModels\\ForgotPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\ForgotPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ViewModels\\ForgotPasswordViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\ForgotPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:19:29.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ViewModels\\HomePageViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\HomePageViewModel.cs",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ViewModels\\HomePageViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\HomePageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T17:53:18.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Index.cshtml",
+              "RelativeToolTip": "Views\\Movie\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T18:14:19.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\UserManagement.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\UserManagement.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\UserManagement.cshtml",
+              "RelativeToolTip": "Views\\Admin\\UserManagement.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T04:14:43.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManageMovies.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\ManageMovies.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageMovies.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\ManageMovies.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ManageMovies.cshtml",
+              "ViewState": "AgIAAHgEAAAAAAAAAAAiwJkEAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T14:24:43.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T04:12:20.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Translator.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Translator.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Translator.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Translator.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Translator.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T04:13:21.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO0BAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T08:17:16.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddMovie.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\AddMovie.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AddMovie.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\AddMovie.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AddMovie.cshtml",
+              "ViewState": "AgIAAGoBAAAAAAAAAAAiwIsBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T14:22:32.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:54:51.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SystemSettings.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\SystemSettings.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\SystemSettings.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\SystemSettings.cshtml",
+              "RelativeToolTip": "Views\\Admin\\SystemSettings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T04:14:44.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T04:00:53.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Controllers\\MovieController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwE0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:21:43.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:50:41.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Configuration\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Configuration\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Configuration\\DependencyInjection.cs",
+              "RelativeToolTip": "Configuration\\DependencyInjection.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T08:14:53.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Services\\MovieService.cs",
+              "RelativeToolTip": "Services\\MovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T04:14:40.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAUwKYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T04:02:37.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T18:26:23.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movie\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Details.cshtml",
+              "RelativeToolTip": "Views\\Movie\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T18:26:20.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Player.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Player.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movie\\Player.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\Player.cshtml",
+              "RelativeToolTip": "Views\\Movie\\Player.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T18:14:19.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T18:26:08.664Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 30,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T18:26:13.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -636,12 +644,11 @@
               "RelativeToolTip": "wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-06-28T04:09:35.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T04:09:35.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "translator.js",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\wwwroot\\js\\translator.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\translator.js",
@@ -649,12 +656,11 @@
               "RelativeToolTip": "wwwroot\\js\\translator.js",
               "ViewState": "AgIAACoAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-06-28T04:09:38.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T04:09:38.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "translator-styles.css",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\wwwroot\\css\\translator-styles.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\translator-styles.css",
@@ -662,12 +668,11 @@
               "RelativeToolTip": "wwwroot\\css\\translator-styles.css",
               "ViewState": "AgIAAFMCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-28T04:09:43.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T04:09:43.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "TranslationService.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Services\\TranslationService.cs",
               "RelativeDocumentMoniker": "Services\\TranslationService.cs",
@@ -675,12 +680,11 @@
               "RelativeToolTip": "Services\\TranslationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T04:14:39.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T04:14:39.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "UserActivityService.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Services\\UserActivityService.cs",
               "RelativeDocumentMoniker": "Services\\UserActivityService.cs",
@@ -688,12 +692,11 @@
               "RelativeToolTip": "Services\\UserActivityService.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAzwG8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T07:22:44.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T07:22:44.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
@@ -701,12 +704,11 @@
               "RelativeToolTip": "Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:54:56.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T17:54:56.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "HTMLPage1.html",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Movie\\HTMLPage1.html",
               "RelativeDocumentMoniker": "Views\\Movie\\HTMLPage1.html",
@@ -714,12 +716,11 @@
               "RelativeToolTip": "Views\\Movie\\HTMLPage1.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-06-22T18:26:19.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T18:26:19.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "20250627175753_web.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Migrations\\20250627175753_web.cs",
               "RelativeDocumentMoniker": "Migrations\\20250627175753_web.cs",
@@ -727,12 +728,11 @@
               "RelativeToolTip": "Migrations\\20250627175753_web.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T17:57:53.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T17:57:53.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "IMovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Repositories\\IMovieRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IMovieRepository.cs",
@@ -744,7 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Models\\Movie.cs",
@@ -756,7 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "MovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Repositories\\MovieRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\MovieRepository.cs",
@@ -768,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "EditMovie.cshtml",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\EditMovie.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\EditMovie.cshtml",
@@ -780,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "ViewMovie.cshtml",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Admin\\ViewMovie.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\ViewMovie.cshtml",
@@ -792,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "UserActivity.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\UserActivity.cs",
               "RelativeDocumentMoniker": "Models\\UserActivity.cs",
@@ -804,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "AIService.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Services\\AIService.cs",
               "RelativeDocumentMoniker": "Services\\AIService.cs",
@@ -816,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -828,7 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\RegisterViewModel.cs",
@@ -840,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "IUserActivityRepository.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Repositories\\IUserActivityRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IUserActivityRepository.cs",
@@ -852,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "UserActivityRepository.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Repositories\\UserActivityRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserActivityRepository.cs",
@@ -864,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\ForgotPassword.cshtml",
@@ -876,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Models\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\LoginViewModel.cs",
@@ -888,7 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
@@ -901,18 +901,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 55,
-              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ViewState": "AgIAAGACAAAAAAAAAAAgwGYCAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-06-23T15:24:15.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
@@ -924,7 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
@@ -936,7 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "20250623163107_webfirmDb.cs",
               "DocumentMoniker": "D:\\Project1\\Movie_website_uses_AI_technology_to_translate_movies\\Migrations\\20250623163107_webfirmDb.cs",
               "ToolTip": "D:\\Project1\\Movie_website_uses_AI_technology_to_translate_movies\\Migrations\\20250623163107_webfirmDb.cs",
@@ -946,7 +934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
@@ -958,7 +946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\ResetPassword.cshtml",
@@ -970,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "20250623151844_webfilmDb.cs",
               "DocumentMoniker": "D:\\Project1\\Movie_website_uses_AI_technology_to_translate_movies\\Migrations\\20250623151844_webfilmDb.cs",
               "ToolTip": "D:\\Project1\\Movie_website_uses_AI_technology_to_translate_movies\\Migrations\\20250623151844_webfilmDb.cs",
@@ -980,7 +968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Account\\Profile.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
@@ -992,7 +980,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\hienc\\OneDrive\\M\u00E1y t\u00EDnh\\Test1\\Webfilm\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
