@@ -1,12 +1,82 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Film_website.Services;
+using Film_website.Models;
 
 namespace Film_website.Controllers
 {
     public class MovieController : Controller
     {
-        public IActionResult Index()
+        private readonly MovieService _movieService;
+        private readonly ILogger<MovieController> _logger;
+
+        public MovieController(MovieService movieService, ILogger<MovieController> logger)
         {
-            return View();
+            _movieService = movieService;
+            _logger = logger;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            try
+            {
+                var movies = await _movieService.GetAllMoviesAsync();
+                return View(movies);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading movies");
+                ViewBag.ErrorMessage = "Unable to load movies at this time.";
+                return View(new List<Movie>());
+            }
+        }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            try
+            {
+                var movie = await _movieService.GetMovieByIdAsync(id);
+                if (movie == null)
+                {
+                    return NotFound();
+                }
+                return View(movie);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading movie details for ID: {MovieId}", id);
+                return NotFound();
+            }
+        }
+
+        // Optional: Add a search action
+        [HttpGet]
+        public async Task<IActionResult> Search(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                return RedirectToAction("Index");
+            }
+
+            try
+            {
+                var allMovies = await _movieService.GetAllMoviesAsync();
+                var searchResults = allMovies.Where(m =>
+                    m.Title.Contains(query, StringComparison.OrdinalIgnoreCase) ||
+                    m.Genre.Contains(query, StringComparison.OrdinalIgnoreCase) ||
+                    m.Description.Contains(query, StringComparison.OrdinalIgnoreCase)
+                ).ToList();
+
+                ViewBag.SearchQuery = query;
+                ViewBag.ResultCount = searchResults.Count;
+
+                return View("Index", searchResults);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error searching movies with query: {Query}", query);
+                ViewBag.ErrorMessage = "Unable to search movies at this time.";
+                return View("Index", new List<Movie>());
+            }
         }
     }
 }
