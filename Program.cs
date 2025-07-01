@@ -6,6 +6,8 @@ using Film_website.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Server.IISIntegration;
+using Microsoft.AspNetCore.Http.Features;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -64,6 +66,21 @@ builder.Services.AddScoped<MovieService>();
 // Register Whisper AI services
 builder.Services.AddScoped<IWhisperService, WhisperService>();
 builder.Services.AddScoped<ITranslationService, TranslationService>();
+
+// Configure file upload size for Whisper AI
+builder.Services.Configure<IISServerOptions>(options =>
+{
+    options.MaxRequestBodySize = 524288000; // 500MB for large video files
+});
+
+// Configure request size limits
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.ValueLengthLimit = int.MaxValue;
+    options.MultipartBodyLengthLimit = 524288000; // 500MB
+    options.MultipartHeadersLengthLimit = int.MaxValue;
+});
+
 
 var app = builder.Build();
 
@@ -194,5 +211,4 @@ using (var scope = app.Services.CreateScope())
         logger.LogError(ex, "Lỗi khi tạo database.");
     }
 }
-
 app.Run();
