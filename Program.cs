@@ -6,6 +6,8 @@ using Film_website.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Server.IISIntegration;
+using Microsoft.AspNetCore.Http.Features;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -61,6 +63,25 @@ builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<UserActivityService>();
 builder.Services.AddScoped<MovieService>();
 
+// Register Whisper AI services
+builder.Services.AddScoped<IWhisperService, WhisperService>();
+builder.Services.AddScoped<ITranslationService, TranslationService>();
+
+// Configure file upload size for Whisper AI
+builder.Services.Configure<IISServerOptions>(options =>
+{
+    options.MaxRequestBodySize = 524288000; // 500MB for large video files
+});
+
+// Configure request size limits
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.ValueLengthLimit = int.MaxValue;
+    options.MultipartBodyLengthLimit = 524288000; // 500MB
+    options.MultipartHeadersLengthLimit = int.MaxValue;
+});
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -72,6 +93,8 @@ if (!app.Environment.IsDevelopment())
 var provider = new FileExtensionContentTypeProvider();
 provider.Mappings[".srt"] = "text/plain; charset=utf-8";
 provider.Mappings[".vtt"] = "text/vtt; charset=utf-8";
+provider.Mappings[".ass"] = "text/plain; charset=utf-8";
+provider.Mappings[".ssa"] = "text/plain; charset=utf-8";
 
 app.UseStaticFiles(new StaticFileOptions
 {
@@ -80,21 +103,27 @@ app.UseStaticFiles(new StaticFileOptions
     {
         var file = context.File;
         var response = context.Context.Response;
-        if (file.Name.EndsWith(".srt") || file.Name.EndsWith(".vtt"))
+        var fileName = file.Name.ToLower();
+        // Handle subtitle files
+        if (fileName.EndsWith(".srt") || fileName.EndsWith(".vtt") ||
+            fileName.EndsWith(".ass") || fileName.EndsWith(".ssa"))
         {
             response.Headers["Access-Control-Allow-Origin"] = "*";
             response.Headers["Access-Control-Allow-Methods"] = "GET";
             response.Headers["Access-Control-Allow-Headers"] = "Content-Type";
 
-            if (file.Name.EndsWith(".srt"))
+            if (fileName.EndsWith(".srt"))
             {
                 response.Headers["Content-Type"] = "text/plain; charset=utf-8";
             }
-            else if (file.Name.EndsWith(".vtt"))
+            else if (fileName.EndsWith(".vtt"))
             {
                 response.Headers["Content-Type"] = "text/vtt; charset=utf-8";
             }
-
+            else
+            {
+                response.Headers["Content-Type"] = "text/plain; charset=utf-8";
+            }
         }
     }
 });
@@ -123,6 +152,13 @@ app.UseStaticFiles(new StaticFileOptions
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+// Ensure upload and download directories exist for Whisper AI
+var uploadsPath = Path.Combine(app.Environment.WebRootPath, "uploads");
+var downloadsPath = Path.Combine(app.Environment.WebRootPath, "downloads");
+
+Directory.CreateDirectory(uploadsPath);
+Directory.CreateDirectory(downloadsPath);
 
 // Tạo admin user mặc định
 using (var scope = app.Services.CreateScope())
@@ -175,5 +211,4 @@ using (var scope = app.Services.CreateScope())
         logger.LogError(ex, "Lỗi khi tạo database.");
     }
 }
-
 app.Run();
