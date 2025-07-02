@@ -3,30 +3,219 @@
     ViewData["Title"] = "Thông tin cá nhân";
 }
 
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">
-                    <h3>Thông tin cá nhân</h3>
-                </div>
-                <div class="card-body">
-                    <div class="row mb-3">
-                        <div class="col-sm-3"><strong>Họ tên:</strong></div>
-                        <div class="col-sm-9">@Model.FirstName @Model.LastName</div>
+<!-- Link to the new profile CSS -->
+<link rel="stylesheet" href="~/css/profile-styles.css" asp-append-version="true" />
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+<div class="profile-container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="profile-card fade-in">
+                    <!-- Profile Header -->
+                    <div class="profile-header">
+                        <div class="profile-avatar">
+                            @if (!string.IsNullOrEmpty(Model.FirstName) && !string.IsNullOrEmpty(Model.LastName))
+                            {
+                                @(Model.FirstName.Substring(0, 1).ToUpper())
+                                @(Model.LastName.Substring(0, 1).ToUpper())
+                            }
+                            else
+                            {
+                                <i class="fas fa-user"></i>
+                            }
+                        </div>
+                        <h1 class="profile-title">@Model.FirstName @Model.LastName</h1>
+                        <p class="profile-subtitle"> Profile</p>
                     </div>
 
-                    <div class="row mb-3">
-                        <div class="col-sm-3"><strong>Email:</strong></div>
-                        <div class="col-sm-9">@Model.Email</div>
-                    </div>
+                    <!-- Profile Body -->
+                    <div class="profile-body">
+                        <!-- Personal Information Section -->
+                        <div class="info-section slide-in-left">
+                            <h3 class="section-title">
+                                <i class="fas fa-id-card"></i>
+                                Thông tin cá nhân
+                            </h3>
 
-                    <div class="row mb-3">
-                        <div class="col-sm-3"><strong>Ngày tạo:</strong></div>
-                        <div class="col-sm-9">@Model.CreatedAt.ToString("dd/MM/yyyy")</div>
+                            <div class="info-item">
+                                <span class="info-label">
+                                    <i class="fas fa-user me-2"></i>
+                                    Họ tên:
+                                </span>
+                                <span class="info-value">@Model.FirstName @Model.LastName</span>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-label">
+                                    <i class="fas fa-envelope me-2"></i>
+                                    Email:
+                                </span>
+                                <span class="info-value">@Model.Email</span>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-label">
+                                    <i class="fas fa-calendar-alt me-2"></i>
+                                    Ngày tạo:
+                                </span>
+                                <span class="info-value">@Model.CreatedAt.ToString("dd/MM/yyyy")</span>
+                            </div>
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <div class="info-item">
+                                    <span class="info-label">
+                                        <i class="fas fa-shield-alt me-2"></i>
+                                        Vai trò:
+                                    </span>
+                                    <span class="info-value">
+                                        <span class="badge bg-warning text-dark">Administrator</span>
+                                    </span>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="info-item">
+                                    <span class="info-label">
+                                        <i class="fas fa-user-tag me-2"></i>
+                                        Vai trò:
+                                    </span>
+                                    <span class="info-value">
+                                        <span class="badge bg-info">User</span>
+                                    </span>
+                                </div>
+                            }
+                        </div>
+
+                        <!-- Account Statistics -->
+                        <div class="info-section">
+                            <h3 class="section-title">
+                                <i class="fas fa-chart-bar"></i>
+                                Thống kê tài khoản
+                            </h3>
+
+                            <div class="profile-stats">
+                                <div class="stat-card">
+                                    <span class="stat-number">
+                                        <i class="fas fa-play-circle"></i>
+                                        0
+                                    </span>
+                                    <span class="stat-label">Phim đã xem</span>
+                                </div>
+
+                                <div class="stat-card">
+                                    <span class="stat-number">
+                                        <i class="fas fa-heart"></i>
+                                        0
+                                    </span>
+                                    <span class="stat-label">Yêu thích</span>
+                                </div>
+
+                                <div class="stat-card">
+                                    <span class="stat-number">
+                                        <i class="fas fa-clock"></i>
+                                        @((DateTime.Now - Model.CreatedAt).Days)
+                                    </span>
+                                    <span class="stat-label">Ngày thành viên</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Account Actions -->
+                        <div class="profile-actions">
+                            <a href="#" class="action-btn" onclick="editProfile()">
+                                <i class="fas fa-edit"></i>
+                                Chỉnh sửa
+                            </a>
+
+                            <a href="#" class="action-btn secondary" onclick="changePassword()">
+                                <i class="fas fa-lock"></i>
+                                Đổi mật khẩu
+                            </a>
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <a asp-controller="Admin" asp-action="Index" class="action-btn">
+                                    <i class="fas fa-cogs"></i>
+                                    Quản trị
+                                </a>
+                            }
+
+                            <a asp-controller="Home" asp-action="Index" class="action-btn secondary">
+                                <i class="fas fa-home"></i>
+                                Trang chủ
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<!-- JavaScript for Enhanced Functionality -->
+<script>
+    // Add loading animation when buttons are clicked
+    document.addEventListener('DOMContentLoaded', function() {
+        const actionButtons = document.querySelectorAll('.action-btn');
+
+        actionButtons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                if (this.href === '#' || this.onclick) {
+                    e.preventDefault();
+                }
+
+                // Add loading state
+                this.classList.add('loading');
+
+                // Remove loading state after 2 seconds (for demo)
+                setTimeout(() => {
+                    this.classList.remove('loading');
+                }, 2000);
+            });
+        });
+
+        // Add hover effects to info items
+        const infoItems = document.querySelectorAll('.info-item');
+        infoItems.forEach(item => {
+            item.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateX(10px)';
+            });
+
+            item.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateX(0)';
+            });
+        });
+    });
+
+    // Placeholder functions for buttons
+    function editProfile() {
+        alert('Chức năng chỉnh sửa profile sẽ được phát triển trong tương lai!');
+    }
+
+    function changePassword() {
+        alert('Chức năng đổi mật khẩu sẽ được phát triển trong tương lai!');
+    }
+</script>
+
+<style>
+    /* Additional inline styles for badges */
+    /* .badge {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        border-radius: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    } */
+
+    .bg-warning {
+        background: linear-gradient(45deg, #fbbf24, #f59e0b) !important;
+    }
+
+    .bg-info {
+        background: linear-gradient(45deg, #3b82f6, #2563eb) !important;
+    }
+</style>
