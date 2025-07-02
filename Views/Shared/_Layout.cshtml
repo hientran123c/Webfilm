@@ -22,9 +22,9 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <!-- Logo -->
+                <!-- Logo with better proportions -->
                 <a class="navbar-brand hover-scale slide-in-left" asp-controller="Movie" asp-action="Index">
-                    <i class="fas fa-film me-2"></i>Film Website
+                    <i class="fas fa-film"></i>Film Website
                 </a>
 
                 <!-- Mobile toggle button -->
@@ -33,98 +33,110 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <!-- Left navigation -->
+                    <!-- Left navigation with improved spacing -->
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Home" asp-action="Index">
-                                <i class="fas fa-home me-1"></i>Trang chủ
+                                <i class="fas fa-home"></i>Trang chủ
                             </a>
                         </li>
                         @if (User.Identity!.IsAuthenticated)
                         {
                             <li class="nav-item">
                                 <a class="nav-link" href="#" data-section="movies">
-                                    <i class="fas fa-video me-1"></i>Phim
+                                    <i class="fas fa-video"></i>Phim
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#" data-section="favorites">
-                                    <i class="fas fa-heart me-1"></i>Yêu thích
+                                    <i class="fas fa-heart"></i>Yêu thích
                                 </a>
                             </li>
                         }
                     </ul>
 
-                    <!-- Right side authentication -->
+                    <!-- Search bar with improved proportions -->
+                    @if (User.Identity!.IsAuthenticated)
+                    {
+                        <div class="search-container">
+                            <div class="search-input-group">
+                                <i class="fas fa-search search-icon"></i>
+                                <input type="text" class="form-control search-input" placeholder="Tìm kiếm phim..." id="searchInput">
+                            </div>
+                        </div>
+                    }
+
+                    <!-- Right side authentication with better ratios -->
                     <div class="navbar-nav">
                         @if (User.Identity!.IsAuthenticated)
                         {
-                            <!-- Search bar for authenticated users -->
-                            <form class="d-flex me-3" role="search">
-                                <div class="input-group">
-                                    <input class="form-control form-control-sm" type="search" placeholder="Tìm phim..." aria-label="Search" style="width: 200px;">
-                                    <button class="btn btn-outline-light btn-sm" type="submit">
-                                        <i class="fas fa-search"></i>
-                                    </button>
-                                </div>
-                            </form>
-                            
-                            <!-- User dropdown menu -->
+                            <!-- User dropdown with improved structure -->
                             <div class="dropdown">
-                                <a class="nav-link dropdown-toggle text-white d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <div class="d-flex align-items-center">
-                                        <div class="rounded-circle bg-gradient-primary d-flex align-items-center justify-content-center me-2" style="width: 35px; height: 35px;">
-                                            <i class="fas fa-user text-white"></i>
-                                        </div>
-                                        <div class="d-none d-md-block">
-                                            <div class="fw-semibold">@(User.Identity.Name?.Split('@')[0] ?? "User")</div>
-                                            <div class="small">
-                                                @if (User.IsInRole("Admin"))
-                                                {
-                                                    <span class="badge bg-warning text-dark">Admin</span>
-                                                }
-                                                else
-                                                {
-                                                    <span class="badge bg-info">User</span>
-                                                }
-                                            </div>
-                                        </div>
+                                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="user-avatar-container">
+                                        @(User.Identity.Name?.Substring(0, 1).ToUpper() ?? "U")
                                     </div>
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-end fade-in" style="min-width: 250px;">
+                                    <div class="user-info d-none d-md-flex">
+                                        <span class="user-name">@(User.Identity.Name ?? "User")</span>
+                                        <span class="user-role">
+                                            @if (User.IsInRole("Admin"))
+                                            {
+                                                <span class="badge bg-warning text-dark">Admin</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-info">User</span>
+                                            }
+                                        </span>
+                                    </div>
+                                </button>
+
+                                <ul class="dropdown-menu dropdown-menu-end">
                                     <li class="dropdown-header">
                                         <div class="d-flex align-items-center">
-                                            <div class="rounded-circle bg-gradient-primary d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
-                                                <i class="fas fa-user text-white"></i>
+                                            <div class="user-avatar-container me-3">
+                                                @(User.Identity.Name?.Substring(0, 1).ToUpper() ?? "U")
                                             </div>
                                             <div>
                                                 <div class="fw-semibold">@User.Identity.Name</div>
-                                                <div class="small text-muted">Tài khoản của tôi</div>
+                                                <div class="small text-muted">Tài khoản của bạn</div>
                                             </div>
                                         </div>
                                     </li>
                                     <li><hr class="dropdown-divider"></li>
-                                    
                                     <li>
-                                        <a class="dropdown-item hover-lift" asp-controller="Account" asp-action="Profile">
-                                            <i class="fas fa-id-card me-2 text-primary"></i>Thông tin cá nhân
+                                        <a class="dropdown-item" asp-controller="Account" asp-action="Profile">
+                                            <i class="fas fa-user-circle"></i>
+                                            Hồ sơ cá nhân
                                         </a>
                                     </li>
-                                    
+                                    <li>
+                                        <a class="dropdown-item" href="#" data-section="watchlist">
+                                            <i class="fas fa-list"></i>
+                                            Danh sách xem
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#" data-section="settings">
+                                            <i class="fas fa-cog"></i>
+                                            Cài đặt
+                                        </a>
+                                    </li>
                                     @if (User.IsInRole("Admin"))
                                     {
                                         <li>
-                                            <a class="dropdown-item hover-lift" asp-controller="Admin" asp-action="Index">
-                                                <i class="fas fa-shield-alt me-2 text-warning"></i>Trang quản trị
+                                            <a class="dropdown-item" asp-controller="Admin" asp-action="index">
+                                                <i class="fas fa-shield-alt"></i>
+                                                Trang quản trị
                                             </a>
                                         </li>
                                     }
-                                    
                                     <li><hr class="dropdown-divider"></li>
                                     <li>
-                                        <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline w-100">
-                                            <button type="submit" class="dropdown-item text-danger w-100 text-start" onclick="return confirmLogout()">
-                                                <i class="fas fa-sign-out-alt me-2"></i>Đăng xuất
+                                        <form method="post" asp-controller="Account" asp-action="Logout" class="d-inline">
+                                            <button type="submit" class="dropdown-item text-danger" onclick="return confirmLogout()">
+                                                <i class="fas fa-sign-out-alt"></i>
+                                                Đăng xuất
                                             </button>
                                         </form>
                                     </li>
@@ -133,13 +145,15 @@
                         }
                         else
                         {
-                            <!-- Authentication buttons for non-logged users -->
+                            <!-- Authentication buttons with improved proportions -->
                             <div class="auth-buttons slide-in-right">
-                                <a class="nav-link btn-login" asp-controller="Account" asp-action="Login">
-                                    <i class="fas fa-sign-in-alt me-1"></i>Đăng nhập
+                                <a class="btn-login" asp-controller="Account" asp-action="Login">
+                                    <i class="fas fa-sign-in-alt"></i>
+                                    Đăng nhập
                                 </a>
-                                <a class="nav-link btn-register" asp-controller="Account" asp-action="Register">
-                                    <i class="fas fa-user-plus me-1"></i>Đăng ký
+                                <a class="btn-register" asp-controller="Account" asp-action="Register">
+                                    <i class="fas fa-user-plus"></i>
+                                    Đăng ký
                                 </a>
                             </div>
                         }
